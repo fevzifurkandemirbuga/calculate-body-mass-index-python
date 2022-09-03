@@ -1,5 +1,5 @@
 height = float(input("enter your height(m): "))
-weight = float(input("enter your weight: "))
+weight = float(input("enter your weight(kg): "))
 
 weight_index = weight/(height*height)
 print("your weight index={:.2f}".format(weight_index))
